@@ -1,0 +1,106 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        
+    
+        {"tag": "VOVO Electric",
+         "patterns": ["what is VOVO Electric","what is VOVO?","VOVO Electric?","who is VOVO Electric","What do you mean by VOVO electric"],
+         "responses": ["VOVO Electric is a EV charging stations provider."]
+
+        },
+    
+        {"tag": "ev charging station",
+         "patterns": ["what is EV charging station","EV Charging station","what do you mean by EV Charging station","What dooes that mean"],
+         "responses": ["An EV charging station is an element in an infrastructure that supplies electric energy for the recharging of plug-in electric vehicles as exhibition stands."]
+        
+        },
+    
+        {"tag": "city",
+         "patterns": ["where do i find ev charging stations in the city","where can we see charging stations?","where are charging stations installed in city","ev charging stations in city","installation in city"],
+         "responses": ["Most of the charging stations are installed near the Parking lots, Malls etc. The stations also have the navigation information about the station which aids you in finding it in your city"]
+         
+        },
+    
+        {"tag": "installation",
+         "patterns": ["can i install an EV charging station at my garage","is it possible to install at home?","can i install in my garage","installation at home", "installation at garage"],
+         "responses": ["Yes you can! Charging station for electric vehicles are flexible enough to intsall indoors.Instead you need to have basic understanding in charging levels which will permit you in making well informed decision"]
+         
+        },
+    
+        {"tag": "full Charge",
+         "patterns": ["how long does it take to fully charge my vehicle at an EV charging station","time to fully charge my vehicle","fully charging time","approximate time to charge at an ev charging station", "how quickly can i charge my vehicle"],
+         "responses": ["At the bottom, the time taken to charge the electric vehicle depends on two factors such as Battery Capacity and Charging Power. "]
+        },
+    
+        {"tag": "Price",
+         "patterns": ["How much should I pay for a full charge?","what's the price","what's the price for full charge","price for full charge","how much does a full charge costs?", "cost for a full charge"],
+         "responses": ["You will be charged 150-200 per full charge of the  vehicle."]
+
+        },
+    
+        {"tag": "payments",
+         "patterns": ["How do users pay for charging thier EVs?","Do you accept online payements?", "Do you accept credit cards?", "Do you accept Mastercard?", "payment mode","payment","payment gateway","Are you cash only?" ],
+         "responses": ["Different EV charging stations have different provisions for payements which accepts multiple casheless options includes VISA, Mastercard, Credit cards and AMEX"]
+        },
+    
+        {"tag": "EV Brand",
+         "patterns": ["Does VOVO Electric charging stations charge electric vehicles of any brand","is it brand specific?","can we charge to any brand of EV","is these charging stations for any brand of electric vehicle?"," any EV can be charged at VOVO?"],
+         "responses": ["VOVO EV charging stations are allowed to charge all other EV Brands."]
+        },
+    
+        {"tag": "safety",
+         "patterns": ["Is it safe to install a personalised charging station at Home?","About Safety & Maintenance of EV Charging station?","what about the safety of the EV charging station","is VOVO safe to every EV"],
+         "responses": ["It is totally safe to install  an EV charging station at home. A little scheduled maintenance is enough for EV charging stations and moreover you don’t need to worry about the fluids like oil and fluid lines."]
+         
+        },
+    
+        {"tag": "Range",
+         "patterns": ["How far can I drive with my EV?","How much distance can I go if I charge for once?","Miles covered per charge?","What is the approximate range covered?"],
+         "responses": ["The ranges varies depending upon the EV, whereas the average vehicle needs to be recharged is for every 300 miles or more."]
+        },
+    
+        {"tag": "Advantages",
+         "patterns": ["What are the benefits of an EV charging station?","Can I know the advantages of charging station?","How far can I drive with my EV?","What are the leverages that VOVO electric offers through this charging station?"],
+         "responses": ["EV chargers allow the user to set up a charging schedule and to monitor the charger from a distance."]
+        },
+    
+        {"tag": "Types of EV",
+         "patterns": ["What are the different types of plug-in electric vehicles?","How many types of plug-in Ev are in useage?","Can I know the EV types?","Can I know the list of classifications of EV"],
+         "responses": ["Specifically there are three diverse types of plug-in such as Battery Electric Vehicles, Extended Range EV, Plug-in Hybrid EV."]
+        },
+    
+        {"tag": "Charging cable",
+         "patterns": ["Do I need my own charging cable?","Should we need to have our own charging cable?","Is charging cable required?","Can we have a charging cable of our own?"],
+         "responses": ["No, Not required.!!"]
+        },
+    
+        {"tag": "Offer",
+         "patterns": ["What kind of charging stations does VOVO offer?","Charging stations offered by VOVO?","Does VOVO offer rapid type of charging station?"],
+         "responses": ["VOVO is providing the rapid type of EV charging station."]
+        },
+    
+        {"tag": "help",
+         "patterns": ["Whom do i meet in case of any problem while charging my vehicle","who will be supporting us to Charge my EV?","does vovo provide any technicians in case of any emergencies?","help"],
+         "responses": ["You can contact station technicians. They will be avaialable 24/7 at your service"]
+        },
+        
+        {"tag": "contact",
+         "patterns": ["contact",""],
+         "responses": ["for more info contact us <a href='vovoelectric.in'>vovelectric.in</a> "]
+        }
+        
+        
+   ]
+}
+
